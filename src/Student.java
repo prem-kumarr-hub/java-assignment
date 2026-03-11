@@ -18,11 +18,11 @@ public class Student {
         System.out.println("Parameterized Constructor Called");
     }
 
+    public static void changeCollege() {
+    }
+
     void display() {
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Course: " + course);
-        System.out.println();
+
     }
 
     public static void main(String[] args) {
